@@ -69,6 +69,7 @@
     ?>
       
     <h3><?php echo $r_tampil_anggota['nama']; ?></h3>
+    <p>ID Wisata : <?php echo $r_tampil_anggota['id_wisata']; ?></p>
     <img src="img/<?php echo $foto; ?>" class="img-thumbnail" style="width: 500px;">
     <p>Lokasi : <?php echo $r_tampil_anggota['alamat']; ?></p>
     <p><?php echo $r_tampil_anggota['keterangan']; ?></p>
